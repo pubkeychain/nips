@@ -1,2 +1,2 @@
-# nips
-NIPs powered by PKCP
+# NIPs powered by PKCP
+Drafts of NIPs made possible by PKCP.
