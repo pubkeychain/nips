@@ -17,7 +17,7 @@ The relays are expected to check that the cornersat listed actually has an inscr
 
 You should not be able to retroactively claim a satoshi with a pubkey that is no longer the last inscribed. 
 
-The relay should respond with an OK message and notify the client if the cornersat was accepted or not. not. 
+The relay should respond with an OK message and notify the client if the cornersat was accepted or not.
 
 
 ### Rotating keys
