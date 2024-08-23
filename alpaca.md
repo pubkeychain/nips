@@ -3,7 +3,7 @@
 This NIP defines a way to enable key rotation for nostr users. 
 
 
-## Linking your current keypair to the cornersat
+### Linking your current keypair to the cornersat
 
 Have the public key of the keypair you are currently using on hand. 
 
@@ -20,7 +20,7 @@ You should not be able to retroactively claim a satoshi with a pubkey that is no
 The relay should respond with an OK message and notify the client if the cornersat was accepted or not. not. 
 
 
-## Rotating keys
+### Rotating keys
 
 When rotating keys, create a new keypair and inscribe the new pubkey on the same satoshi you used previously, your cornersat. 
 
@@ -30,7 +30,7 @@ You can claim your history by creating a user metadata event with the cornersat 
 Any NIP-05 references to the previous pubkey will not be mapped automagically to the new pubkey after rotating keys.
 
 
-## Inspiration
+### Inspiration
 
 A nostr client might be able to offer various imports of previous settings, like profile and people you follow. 
 It is a little trickier to let all followers of the previous pubkey switch to the new one. 
