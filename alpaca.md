@@ -8,7 +8,7 @@ This NIP defines a way to enable key rotation for nostr users.
 Have the public key of the keypair you are currently using on hand. 
 
 Use a Bitcoin wallet of your choice to inscribe a satoshi with the current public key following the PKCP specification. 
-Make note of the satoshi ordinal number and (name)[https://docs.ordinals.com/overview.html#names].
+Make note of the satoshi ordinal number and [name](https://docs.ordinals.com/overview.html#names).
 
 Declare the satoshi as your cornersat in your nostr metadata using an optional property in the content of the event of kind 0 (user metadata):
 'cornersat': the name of the inscribed satoshi.
